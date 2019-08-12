@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message_single_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/message_single_user_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/default_user"
+        android:visibility="visible"
+        app:civ_border_color="#5e5e5e"
+        app:civ_border_width="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/message_single_user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/message_incoming_text_bg"
+        android:padding="8dp"
+        android:text="Message"
+        android:textColor="@color/profileBG"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/message_single_user_image"
+        app:layout_constraintTop_toBottomOf="@+id/message_single_name" />
+
+    <TextView
+        android:id="@+id/message_single_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/message_single_user_text"
+        app:layout_constraintTop_toTopOf="@+id/message_single_user_image" />
+
+    <TextView
+        android:id="@+id/message_single_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        app:layout_constraintBottom_toBottomOf="@+id/message_single_name"
+        app:layout_constraintStart_toEndOf="@+id/message_single_name" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/message_single_image_send_View"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_margin="5dp"
+        android:elevation="10dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:visibility="gone"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message_single_user_image">
+
+        <ImageView
+            android:id="@+id/message_single_image_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jack"
+            android:visibility="visible"
+            app:layout_constraintStart_toEndOf="@+id/message_single_user_image"
+            app:layout_constraintTop_toBottomOf="@+id/message_single_user_text" />
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

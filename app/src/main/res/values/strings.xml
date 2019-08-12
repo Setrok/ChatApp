@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="need_a_new_account">Need a new Account?</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_out">Log Out</string>
+    <string name="all_users">All users</string>
+    <string name="account_settings">Account Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_status">Everybody knows, that\'s how it goes.</string>
+    <string name="change_image">Change Image</string>
+    <string name="change_status">Change Status</string>
+    <string name="cancel_request">Cancel friend Request</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="accept_frind_request">Accept friend Request</string>
+    <string name="profile_unfriend">Unfriend user</string>
+    <string name="loading">Loading</string>
+    <string name="loading_user_data">Loading user data...</string>
+    <string name="setrok">Setrok</string>
+    <string name="_3_mutual_friends">3 Mutual Friends</string>
+    <string name="_2442_friends">2442 Friends</string>
+    <string name="decline_rquest">Decline Rquest</string>
+    <string name="channel_name">notification channel</string>
+    <string name="channel_description">channel desc</string>
+    <string name="default_notification_channel_id">channel_default</string>
+    <string name="seen_recently">Last seen: Recently</string>
+</resources>

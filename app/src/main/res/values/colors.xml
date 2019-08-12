@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673bb7</color>
+    <color name="colorPrimaryDark">#512da7</color>
+    <color name="colorAccent">#ff5521</color>
+
+
+    <color name="reg_title">#318eff</color>
+
+    <color name="lightGray">#d2d2d2</color>
+    <color name="tabUnselectedColor">#b7b7b7</color>
+    <color name="profile_disabled_btn">#aaa</color>
+    <color name="tabSelectedColor">#fc8f00</color>
+    <color name="profileBG">#262626</color>
+    <color name="profile_acceptBtn">#28bb18</color>
+    <color name="profile_cancelBtn">#cf2825</color>
+</resources>
